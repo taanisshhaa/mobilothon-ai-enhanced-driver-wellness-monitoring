@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://localhost:8000/:path*",
+        destination: "https://mobilothon-ai-enhanced-driver-wellness.onrender.com/:path*",
       },
     ];
   },
