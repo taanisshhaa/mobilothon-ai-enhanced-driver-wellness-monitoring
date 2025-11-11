@@ -21,8 +21,8 @@
 # def get_alerts():
 #     return alerts
 from fastapi import FastAPI
-from app.models import DriverData
-from app.logic import compute_fatigue_score
+from models import DriverData
+from logic import compute_fatigue_score
 from datetime import datetime
 
 app = FastAPI(title="NeuroDrive Backend")
